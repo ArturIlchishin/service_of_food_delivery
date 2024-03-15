@@ -1,0 +1,35 @@
+.logged__container {
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    width: 9vw;
+    min-width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(189, 189, 189);
+    border-radius: 8px;
+    font-size: 10px;
+    color: rgba(21, 21, 26, 0.84);
+}
+
+.logged__button__container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout__button {
+    min-width: 60px;
+    width: 4vw;
+    height: 2.5vh;
+    border-radius: 8px;
+    border: none;
+    transition: 0.2s;
+    font-size: 10px;
+    color: rgba(21, 21, 26, 0.84);
+
+}
+
+.logout__button:hover, .logout__button:active {
+    transform: scale(110%);
+}

@@ -1,0 +1,22 @@
+[
+  {
+  "name": "Дьявол",
+  "price": 450,
+  "img" : "/burgers/devilburger.jpg"
+  },
+  {
+    "name": "Чизбургер",
+    "price": 350,
+    "img": "/burgers/cheeseburger.jpg"
+  },
+  {
+    "name": "Толстячок",
+    "price": 700,
+    "img": "/burgers/fatburger.jpg"
+  },
+  {
+    "name": "Рыбак",
+    "price": 380,
+    "img": "/burgers/fishburger.jpg"
+  }
+]

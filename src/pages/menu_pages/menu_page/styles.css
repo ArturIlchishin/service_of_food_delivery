@@ -1,0 +1,47 @@
+.menu__container {
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    min-width: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(189, 189, 189);
+    border-radius: 8px;
+}
+
+.menu__card__container {
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(167deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.5914740896358543) 100%);
+    max-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    transition: 0.2s;
+}
+
+.menu__card__container:hover {
+    transform: scale(105%);
+}
+
+
+
+.menu__card__name-title {
+    font-size: 25px;
+    color: #180404;
+}
+
+.menu__card__price-number {
+    font-size: 17px;
+    color: #180404;
+}
+
+.menu__card__img-pic {
+    min-width: 200px;
+    max-width: 250px;
+    border-radius: 15px;
+}
