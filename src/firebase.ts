@@ -8,7 +8,7 @@ interface IFirebase {
     messagingSenderId: string | undefined
     appId: string | undefined
 }
-const firebaseConfig : IFirebase = {
+export const firebaseConfig : IFirebase = {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: process.env.REACT_APP_FIREBASE_API_AUTH_DOMAIN,
     projectId: process.env.REACT_APP_FIREBASE_API_PROJECT_ID,
