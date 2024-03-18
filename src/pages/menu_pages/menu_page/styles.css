@@ -41,7 +41,50 @@
 }
 
 .menu__card__img-pic {
-    min-width: 200px;
-    max-width: 250px;
+    min-width: 150px;
+    max-width: 230px;
     border-radius: 15px;
+}
+
+.menu__card__size {
+    margin: 5px 0 5px 0;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__card__size-btn {
+    border: none;
+    border-radius: 8px;
+    width: 10vw;
+    height: 7vh;
+    transition: 0.2s;
+}
+
+.menu__card__size-btn:hover, .menu__card__size-btn:active, .menu__card__size-btn:focus {
+    transform: scale(110%);
+}
+
+.menu__card__amount {
+    margin: 5px 0 5px 0;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100%;
+    background: rgb(245, 245, 245);
+}
+
+.menu__card__amount-btn {
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.menu__card__amount-btn:hover, .menu__card__amount-btn:active {
+    background: #c2c0c0;
 }

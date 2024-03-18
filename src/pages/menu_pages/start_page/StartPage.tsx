@@ -4,6 +4,8 @@ import {useNavigate} from "react-router-dom";
 import {MenuPage} from "../menu_page/MenuPage";
 import {AnimatedComponent} from "../../../components/AnimatedComponent";
 import './styles.css';
+import {WidgetBucket} from "../widget_bucket/WidgetBucket";
+import {BucketPage} from "../bucket_page/BucketPage";
 
 
 
@@ -33,6 +35,8 @@ export const StartPage = () => {
                 </>
                 : `You're not logged in` }
             </div>
+            <WidgetBucket />
+            <BucketPage />
             <MenuPage />
         </AnimatedComponent>
     )
